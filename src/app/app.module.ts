@@ -7,7 +7,8 @@ import { AppComponent } from './app.component';
 import { TodosComponent } from './todos/todos.component';
 
 import { VoterComponent } from './voter/voter.component';
-
+import { UsersComponent } from './users/users.component'; 
+import { UserDetailsComponent } from './user-details/user-details.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,9 @@ import { VoterComponent } from './voter/voter.component';
 
     TodosComponent,
 
-    VoterComponent
+    VoterComponent,
+    Userscomponent,
+    UserDetailsComponent
 
   ],
   imports: [
