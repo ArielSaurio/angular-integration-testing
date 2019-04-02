@@ -17,7 +17,7 @@ import { UserDetailsComponent } from './user-details/user-details.component';
     TodosComponent,
 
     VoterComponent,
-    Userscomponent,
+    UsersComponent,
     UserDetailsComponent
 
   ],
