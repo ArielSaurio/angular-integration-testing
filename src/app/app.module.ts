@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { TodosComponent } from './todos/todos.component';
-
+import { HomeComponent } from './home/home.component';
 import { VoterComponent } from './voter/voter.component';
 import { UsersComponent } from './users/users.component'; 
 import { UserDetailsComponent } from './user-details/user-details.component';
@@ -18,7 +18,8 @@ import { UserDetailsComponent } from './user-details/user-details.component';
 
     VoterComponent,
     UsersComponent,
-    UserDetailsComponent
+    UserDetailsComponent,
+    HomeComponent
 
   ],
   imports: [
