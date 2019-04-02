@@ -3,12 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 import { TodosComponent } from './todos/todos.component';
+
+import { VoterComponent } from './voter/voter.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    TodosComponent
+
+    TodosComponent,
+
+    VoterComponent
+
   ],
   imports: [
     BrowserModule,
